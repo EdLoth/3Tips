@@ -1,0 +1,14 @@
+.containerHome{
+    display: flex;
+    align-items: center;
+}
+
+.titleTips{
+    display: flex;
+    align-items: center;
+}
+
+.titleTips h1{
+    position: relative;
+    margin-left: -250px;
+}
