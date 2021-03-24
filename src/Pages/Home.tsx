@@ -1,17 +1,26 @@
 import React from 'react';
 
+import {Link} from 'react-router-dom';
+
 import styles from '../Styles/Home.module.css'
 
 
 //importando assets utilizados na pagina
-import tres from "../assets/3_2.gif"
+
+
 export default function Home() {
-    return(
-        <div className={styles.containerHome}>
-            <div className={styles.titleTips}>
-                <img src={tres} alt=""/>
-                <h1>Home page</h1>
+    return (
+        <>
+            <div className={styles.containerHome}>
+                <div className={styles.titleTips}>
+                    <h1 id={styles.tresTitle}><span>Jogo das 3 DICAS</span></h1>
+                </div>
+                <div className={styles.groupItems}>
+                    <Link className={styles.buttonStart} to="/index">
+                        <h1>START YOUR GAME</h1>
+                    </Link>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
