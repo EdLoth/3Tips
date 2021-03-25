@@ -1,0 +1,93 @@
+
+
+.contentLogin{
+    background-image: url('../../assets/wall.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#containerLogin{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+#leftPanel{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+
+#titleLogin{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#leftPanel img{
+    align-items: center;
+    width: 100%;
+}
+
+#rigthPanel{
+    border-radius: 10px;
+    background-color: var(--background);
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.inputBody{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #333; 
+    transition: 1s;
+}
+
+.inputBody:hover{
+    border-bottom: 3px solid var(--title-dark);
+}
+
+#iconLogin{
+    font-size: 2rem;
+    color: var(--title-dark);
+
+}
+
+#inputFix{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding-left: 2rem;
+    padding-bottom: 1+.rem;
+    font-size: 1.5rem;
+    outline: none;
+    color: var(--title);
+    
+    transition: 1s;
+}
+
+
+#inputFix::placeholder{
+    color: var(--title-dark);
+    padding-left: 0.2rem;
+    font-size: 1.5rem;
+}

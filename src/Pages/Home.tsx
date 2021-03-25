@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Link} from 'react-router-dom';
 
-import styles from '../Styles/Home.module.css'
+import styles from '../Styles/Pages/Home.module.css'
 
 
 //importando assets utilizados na pagina

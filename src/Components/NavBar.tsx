@@ -9,12 +9,12 @@ export default function Navbar() {
         <nav id={styles.navbar} className="navbar">
             <p id={styles.titleIndex}>3 Reasons Why</p>
             <div className={styles.groupButton}>
-                <Link id={styles.buttonNav} to="/Register">
-                    Login
+                <Link id={styles.buttonNav} to="/Login">
+                    Singin
                 </Link>
 
                 <Link id={styles.buttonNav} to="/Register">
-                    CADASTRE-SE
+                    Singup
                 </Link>
             </div>
         </nav>
