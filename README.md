@@ -2,7 +2,7 @@
 
 This is a project created in React with support for Typescript
 <hr/>
-
+<img src="https://i.imgur.com/Ln4fb6f.png" width="1260px"></img>
 
 # Getting Started with Create React App
 
