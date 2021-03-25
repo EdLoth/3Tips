@@ -1,3 +1,9 @@
+# Layout das Telas do jogo "3Tips" ou "3dicas"
+
+This is a project created in React with support for Typescript
+<hr/>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
