@@ -9,7 +9,7 @@ export default function Index() {
     return (
         <>
             <Navbar />
-            <div className="containerIndex">
+            <div className={styles.containerIndex}>
                 <div className="container">
                     <div className={styles.jumbotron}>
                         <h1 id={styles.titleIndex} className="display-4">Hello, world!</h1><br/><br/>

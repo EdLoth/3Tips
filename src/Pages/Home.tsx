@@ -10,7 +10,6 @@ import styles from '../Styles/Pages/Home.module.css'
 
 export default function Home() {
     return (
-        <>
             <div className={styles.containerHome}>
                 <div className={styles.titleTips}>
                     <h1 id={styles.tresTitle}><span>Jogo das 3 DICAS</span></h1>
@@ -21,6 +20,6 @@ export default function Home() {
                     </Link>
                 </div>
             </div>
-        </>
+
     )
 }
