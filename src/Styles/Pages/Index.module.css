@@ -7,42 +7,86 @@
     width: 100%;
 }
 
-.jumbotron{
-    text-align: center;
-    margin-top: 10%;
-    padding: 8% 15%;
-    border: 5px white solid;
-    color: white;
-    background-color: #2E384D;
+@media(min-width: 1280px)
+{
+    .jumbotron{
+        text-align: center;
+        margin-top: 13%;
+        padding: 5% 10%;
+        border: 5px white solid;
+        color: white;
+        background-color: var(--title-dark);
 
-    transition: 1s;
+        transition: 1s;
+    }
+    .jumbotron:hover{
+        border-radius: 15px;
+        color: #2E384D;
+        background-color: white;
+        border: 5px solid #2E384D;
+    }
+
+    #buttonIndex{
+        text-decoration: none;
+        border: white 3px solid;
+        font-size: 1.5rem;
+        background-color: #333;
+        color: white;
+        transition: 1s;
+    }
+
+    #buttonIndex:hover{
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    #titleIndex{
+        font-size: 5rem;
+    }
+
+    #textIndex{
+        font-size: 2rem;
+    }
 }
-.jumbotron:hover{
-    border-radius: 15px;
-    color: #2E384D;
-    background-color: white;
-    border: 5px solid #2E384D;
-}
 
+@media(max-width: 1280px) {
+    .jumbotron{
+        text-align: center;
+        margin-top: 13%;
+        padding: 5% 10%;
+        border: 5px white solid;
+        color: white;
+        background-color: var(--title-dark);
 
-#buttonIndex{
-    text-decoration: none;
-    border: white 3px solid;
-    font-size: 1.5rem;
-    background-color: #333;
-    color: white;
-    transition: 1s;
-}
+        transition: 1s;
+    }
 
-#buttonIndex:hover{
-    font-size: 2rem;
-    padding: 10px;
-}
+    .jumbotron:hover{
+        border-radius: 15px;
+        color: #2E384D;
+        background-color: white;
+        border: 4px solid #2E384D;
+    }
 
-#titleIndex{
-    font-size: 5rem;
-}
+    #buttonIndex{
+        text-decoration: none;
+        border: white 2px solid;
+        font-size: 0.8rem;
+        background-color: #333;
+        color: white;
+        transition: 1s;
+    }
 
-#textIndex{
-    font-size: 2rem;
+    #buttonIndex:hover{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    #titleIndex{
+        font-size: 3rem;
+    }
+
+    #textIndex{
+        font-size: 1rem;
+    }
 }

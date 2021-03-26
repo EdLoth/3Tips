@@ -1,40 +1,129 @@
-#navbar{
-    background-color: white;
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    right: 0%;
-    border-bottom: 5px #2E384D solid;
+@media(min-width: 1280px)
+{    
+    body{
+        overflow: show;
+    }
+
+    #navbar{
+        background-color: var(--title-dark);
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        right: 0%;
+        border-bottom: 5px #2E384D solid;
+    }
+
+    #titleIndex{
+        font-size: 3rem;
+        color: white;
+        text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+        0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+        0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+        -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+    }
+
+    #buttonNav{
+        text-decoration: none;
+        outline: none;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+
+        color: white;
+        padding: 10px 50px;
+        border-radius: 5px;
+        border: 2px solid white;
+
+        transition: 1s;
+    }
+
+    #buttonNav:hover{
+        color: var(--title-dark);
+        background-color: white;
+        border: 2px inherit #2E384D;
+    }
 }
 
-#titleIndex{
-    font-size: 3rem;
-    color: white;
-    text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
-      0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
-      0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
-      -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+@media(max-width: 1280px),(min-width:500px)
+{
+    #navbar{
+        background-color: var(--title-dark);
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        right: 0%;
+        border-bottom: 3px #2E384D solid;
+    }
+
+    #titleIndex{
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+        0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+        0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+        -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+    }
+
+    #buttonNav{
+        text-decoration: none;
+        outline: none;
+        margin-left: 0.5rem;
+        font-size: 1.5rem;
+        color: white;
+        padding: 5px 25px;
+        border-radius: 5px;
+        border: 1px solid white;
+        transition: 1s;
+    }
+
+    #buttonNav:hover{
+        color: var(--title-dark);
+        background-color: white;
+        border: 1px inherit #2E384D;
+    }
 }
 
+@media(max-width: 500px)
+{
+    #navbar{
+        background-color: var(--title-dark);
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: block;
+        text-align: center;
+        align-items: center;
+        right: 0%;
+        border-bottom: 3px #2E384D solid;
+    }
 
-#buttonNav{
-    text-decoration: none;
-    outline: none;
-    margin-left: 1rem;
-    font-size: 2.5rem;
+    #titleIndex{
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+        0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+        0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+        -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+    }
 
-    color: #333;
-    padding: 10px 50px;
-    border-radius: 5px;
-    border: 2px solid #333;
+    #buttonNav{
+        text-decoration: none;
+        outline: none;
+        margin-left: 0.5rem;
+        font-size: 1.5rem;
+        color: white;
+        padding: 5px 25px;
+        border-radius: 5px;
+        border: 1px solid white;
+        transition: 1s;
+    }
 
-    transition: 1s;
-}
-
-#buttonNav:hover{
-    color: white;
-    background-color: #333;
-    border: 2px inherit #2E384D;
+    #buttonNav:hover{
+        color: var(--title-dark);
+        background-color: white;
+        border: 1px inherit #2E384D;
+    }
 }
