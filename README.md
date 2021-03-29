@@ -1,4 +1,4 @@
-# Layout das Telas do jogo "3Tips" ou "3dicas"
+# Layout das Telas do jogo "3Tips" ou "3dicas" :interrobang:
 
 This is a project created in React with support for Typescript
 <hr/>
