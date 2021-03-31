@@ -1,0 +1,51 @@
+[
+    {
+      "correct": "Lionel Messi",
+      "tip1": "Jogou a vida inteira por um unico time.",
+      "tip2": "Ja foi melhor jogador do mundo 6 vezes.",
+      "tip3": "É o maior jogador da historia do barcelona.",
+      "amount": 80
+    },
+    {
+        "correct": "Adolf Hittler",
+        "tip1": "Governante Alemão que não era alemão",
+        "tip2": "Foi preso e escreveu um livro chamado: Minha luta",
+        "tip3": "Lider e fundador do Partido Nacional-Socialista dos Trabalhadores Alemães",
+        "amount": 90
+    },
+    {
+        "correct": "Dom Pedro II",
+        "tip1": "Ultimo monarca do Imperio do Brasil.",
+        "tip2": "Era Português.",
+        "tip3": "Governou o Imperio por cerca de 58 anos.",
+        "amount": 80
+    },
+    {
+        "correct": "Marie Curie",
+        "tip1": "Uma das mulheres mais geniais da historia, descobriu os elementos Rádio e Polônio..",
+        "tip2": "Ganhou o Premio Nobel de Física e de Química",
+        "tip3": "O elemento Cúrio é uma homenagem ao seu nome e de seu marido.",
+        "amount": 100
+    },
+    {
+        "correct": "Maximilien de Robespierre",
+        "tip1": " foi um advogado e político francês, e uma das personalidades mais importantes da Revolução Francesa.",
+        "tip2": "Posicionava-se contra a pena de morte, a escravidão.",
+        "tip3": " e defendia o voto para todos os homens, independente da sua contribuição financeira.",
+        "amount": 100
+    },
+    {
+        "correct": "Will Smith",
+        "tip1": "é um ator, rapper, produtor cinematográfico, produtor musical e produtor de televisão americano.",
+        "tip2": "Fez filmes como em busca da felicidade, depois da terra e a procura da felicidade.",
+        "tip3": "É considerado um dos maiores comediantes da 7ª Arte.",
+        "amount": 80
+    },
+    {
+        "correct": "Will Smith",
+        "tip1": " é um programador e empresário norte-americano, que ficou conhecido internacionalmente.",
+        "tip2": "Criou uma rede Social muito famosa.",
+        "tip3": "processada por práticas anticompetitivas nos EUA.",
+        "amount": 100
+    }
+  ]
