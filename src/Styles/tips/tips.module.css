@@ -1,0 +1,62 @@
+.contentPlaygame{
+    height: 100vh;
+    background-color: #222;
+    color: white;
+}
+
+#questionTittle{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.questionBox{
+    text-align: center;
+    background-color: white;
+    color: #222;
+    font-size: 4rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.displayButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttonIncorret{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 3px solid rgb(155, 0, 0);
+}
+
+.buttonCorrect{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 3px solid green;
+}
+
+
+#btnStar{
+    font-size: 3rem;
+    color: red;
+    transition: 0.8s;
+}
+#btnStar:hover{
+    font-size: 3.2rem;
+    color: red;
+}
+#btnStur{
+    font-size: 3rem;
+    color: green;
+    transition: 0.8s;
+}
+#btnStur:hover{
+    font-size: 3.2rem;
+    color: green;
+}

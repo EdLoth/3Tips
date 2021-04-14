@@ -1,0 +1,48 @@
+.containerPlay{
+    height: 100vh;
+    animation: animate 5s ease infinite;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#contentPlay{
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    height: 90vh;
+}
+
+#rowTip{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+#tipContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 222, 179, 0);
+    height: 50px;
+}
+
+#buttonTip{
+    background-color: var(--background);
+    color: black;
+    font-size: 4rem;
+    width: 500px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+#buttonTip:hover{
+    border-radius: 10px;
+    color: var(--background);
+    background-color: black;
+    border: 1px inset white;
+}
+
+#btnReturnIndex{
+    font-size: 2rem;
+}
